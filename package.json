@@ -1,0 +1,14 @@
+{
+  "name": "aws-alfred",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "search": "node src/main/coffee/main.coffee"
+  },
+  "dependencies": {
+    "alfred-workflow-nodejs": "^1.1.0",
+    "aws-sdk": "^2.2.19",
+    "coffee-script": "^1.10.0",
+    "lodash": "^3.10.1"
+  }
+}
